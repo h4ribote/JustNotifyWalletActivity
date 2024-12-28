@@ -1,0 +1,7 @@
+{
+    "webhook_urk": "https://discord.com/api/webhooks/0/None",
+    "symbol": "eth",
+    "explorer_transaction": "https://www.oklink.com/ja/eth/tx/{hash}",
+    "explorer_address": "https://www.oklink.com/ja/eth/address/{address}",
+    "get_transaction_interval": "5"
+}

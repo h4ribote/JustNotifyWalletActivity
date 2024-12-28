@@ -9,6 +9,7 @@ import json
 def load_json():
     with open("settings/filter_address.json") as f:
         filter_address_json:dict[str,str] = json.load(f)
+        filter_address = {}
         for address in filter_address_json.keys():
             filter_address[str(Web3.to_checksum_address(address))] = filter_address_json[address]
 

@@ -1,5 +1,5 @@
 # JustNotifyWalletActivity
-そこら辺のノードからブロック情報を取得して、特定のアドレスに動きがあったらDiscordのWebhookで送信するやつです
+そこら辺の複数のノードからブロック情報を取得して、特定のアドレスに動きがあったらDiscordのWebhookで送信するやつです
 
 ほぼ自分用です
 
